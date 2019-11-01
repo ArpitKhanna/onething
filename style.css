@@ -1,0 +1,80 @@
+@font-face {
+    font-family: "Objectivity";
+    src : url("../font/Objectivity/Objectivity-Medium.otf");
+}
+
+* {
+    margin: 0;
+    padding : 0;
+    box-sizing: border-box;
+}
+
+
+.container {
+    max-width: 1228px;
+    margin : 0 auto;
+}
+
+header {
+    padding-top : 60px;
+     display: flex;
+     flex-direction: row;
+     justify-content: space-between;
+     align-items: center;
+}
+
+.logo {
+    width : 36px;
+    height : 45px;
+    background: url("img/logo.svg");
+    background-repeat: no-repeat;
+}
+
+.top-nav {
+    display : flex;
+    flex-direction: row;
+    list-style: none;
+}
+
+.top-nav li {
+    margin-left: 42px;
+    font-family: 'Objectivity',sans-serif;
+}
+
+.top-nav li span {
+    color : #E53617;
+    border-bottom : 1px solid #E53617;
+}
+
+.first-view {
+    margin-top : 100px;
+    position: relative;
+    width : 100%;
+    display : flex;
+    justify-content: center;
+}
+
+.first-view h1 {
+    top : 50%;
+    left : 50%;
+    margin-left : -480.5px;
+    margin-top : -90px;
+    position: absolute;
+    text-align: center;
+    font-size : 64px;
+    line-height : 140%;
+    font-family: 'Objectivity',sans-serif;
+    font-weight: normal;
+}
+
+.first-view h1 span {
+    color : #E53617;
+}
+
+
+.first-view img {
+    margin-left : -96px;
+    opacity: .9;
+
+
+}
